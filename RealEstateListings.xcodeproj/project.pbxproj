@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2709B90D0F3E576AD2D0D104 /* Pods_RealEstateListings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01053DA52FCDEF35F9F2AE3C /* Pods_RealEstateListings.framework */; };
+		5932F5B67BCC07E564EFB7E4 /* Pods_RealEstateListingsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12A08AF0BBD4F9F01366A33 /* Pods_RealEstateListingsTests.framework */; };
+		6C35DB806FEF41FE74FC2045 /* Pods_RealEstateListings_RealEstateListingsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD137D93129A26319D0A4B23 /* Pods_RealEstateListings_RealEstateListingsUITests.framework */; };
 		BA21C6192593CD6900F11DF6 /* RealEstateListingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA21C6182593CD6900F11DF6 /* RealEstateListingsApp.swift */; };
 		BA21C61B2593CD6900F11DF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA21C61A2593CD6900F11DF6 /* ContentView.swift */; };
 		BA21C61D2593CD6E00F11DF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA21C61C2593CD6E00F11DF6 /* Assets.xcassets */; };
@@ -14,6 +17,8 @@
 		BA21C62B2593CD6E00F11DF6 /* RealEstateListingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA21C62A2593CD6E00F11DF6 /* RealEstateListingsTests.swift */; };
 		BA21C6362593CD6E00F11DF6 /* RealEstateListingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA21C6352593CD6E00F11DF6 /* RealEstateListingsUITests.swift */; };
 		BA21C6472593CE6300F11DF6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA21C6462593CE6300F11DF6 /* CardView.swift */; };
+		BA2452572594741300FBCD7E /* RealmSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2452562594741300FBCD7E /* RealmSwift.swift */; };
+		BAF42DD6259442C00011F9CE /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF42DD5259442C00011F9CE /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01053DA52FCDEF35F9F2AE3C /* Pods_RealEstateListings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealEstateListings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09BBD39234A0ADBEC0733FAD /* Pods-RealEstateListings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealEstateListings.debug.xcconfig"; path = "Target Support Files/Pods-RealEstateListings/Pods-RealEstateListings.debug.xcconfig"; sourceTree = "<group>"; };
+		3920B98A04F26B3302469B22 /* Pods-RealEstateListings-RealEstateListingsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealEstateListings-RealEstateListingsUITests.debug.xcconfig"; path = "Target Support Files/Pods-RealEstateListings-RealEstateListingsUITests/Pods-RealEstateListings-RealEstateListingsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		865C159308919472A6775BC2 /* Pods-RealEstateListingsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealEstateListingsTests.debug.xcconfig"; path = "Target Support Files/Pods-RealEstateListingsTests/Pods-RealEstateListingsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F1CEC2CF97D78ACE0F9C699 /* Pods-RealEstateListings-RealEstateListingsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealEstateListings-RealEstateListingsUITests.release.xcconfig"; path = "Target Support Files/Pods-RealEstateListings-RealEstateListingsUITests/Pods-RealEstateListings-RealEstateListingsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B12A08AF0BBD4F9F01366A33 /* Pods_RealEstateListingsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealEstateListingsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA21C6152593CD6900F11DF6 /* RealEstateListings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealEstateListings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA21C6182593CD6900F11DF6 /* RealEstateListingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealEstateListingsApp.swift; sourceTree = "<group>"; };
 		BA21C61A2593CD6900F11DF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +58,11 @@
 		BA21C6352593CD6E00F11DF6 /* RealEstateListingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealEstateListingsUITests.swift; sourceTree = "<group>"; };
 		BA21C6372593CD6E00F11DF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA21C6462593CE6300F11DF6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		BA2452562594741300FBCD7E /* RealmSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmSwift.swift; sourceTree = "<group>"; };
+		BAF42DD5259442C00011F9CE /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		CC5941912AB253F6B3B39046 /* Pods-RealEstateListingsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealEstateListingsTests.release.xcconfig"; path = "Target Support Files/Pods-RealEstateListingsTests/Pods-RealEstateListingsTests.release.xcconfig"; sourceTree = "<group>"; };
+		D07A13B02775910E35A2C65D /* Pods-RealEstateListings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealEstateListings.release.xcconfig"; path = "Target Support Files/Pods-RealEstateListings/Pods-RealEstateListings.release.xcconfig"; sourceTree = "<group>"; };
+		FD137D93129A26319D0A4B23 /* Pods_RealEstateListings_RealEstateListingsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealEstateListings_RealEstateListingsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2709B90D0F3E576AD2D0D104 /* Pods_RealEstateListings.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5932F5B67BCC07E564EFB7E4 /* Pods_RealEstateListingsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C35DB806FEF41FE74FC2045 /* Pods_RealEstateListings_RealEstateListingsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		546ED07D8B101DBC0AF95CFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09BBD39234A0ADBEC0733FAD /* Pods-RealEstateListings.debug.xcconfig */,
+				D07A13B02775910E35A2C65D /* Pods-RealEstateListings.release.xcconfig */,
+				3920B98A04F26B3302469B22 /* Pods-RealEstateListings-RealEstateListingsUITests.debug.xcconfig */,
+				9F1CEC2CF97D78ACE0F9C699 /* Pods-RealEstateListings-RealEstateListingsUITests.release.xcconfig */,
+				865C159308919472A6775BC2 /* Pods-RealEstateListingsTests.debug.xcconfig */,
+				CC5941912AB253F6B3B39046 /* Pods-RealEstateListingsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6FE1DF73483FC532D278BB20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01053DA52FCDEF35F9F2AE3C /* Pods_RealEstateListings.framework */,
+				FD137D93129A26319D0A4B23 /* Pods_RealEstateListings_RealEstateListingsUITests.framework */,
+				B12A08AF0BBD4F9F01366A33 /* Pods_RealEstateListingsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BA21C60C2593CD6900F11DF6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +123,8 @@
 				BA21C6292593CD6E00F11DF6 /* RealEstateListingsTests */,
 				BA21C6342593CD6E00F11DF6 /* RealEstateListingsUITests */,
 				BA21C6162593CD6900F11DF6 /* Products */,
+				546ED07D8B101DBC0AF95CFF /* Pods */,
+				6FE1DF73483FC532D278BB20 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +147,8 @@
 				BA21C6212593CD6E00F11DF6 /* Info.plist */,
 				BA21C61E2593CD6E00F11DF6 /* Preview Content */,
 				BA21C6462593CE6300F11DF6 /* CardView.swift */,
+				BAF42DD5259442C00011F9CE /* DetailView.swift */,
+				BA2452562594741300FBCD7E /* RealmSwift.swift */,
 			);
 			path = RealEstateListings;
 			sourceTree = "<group>";
@@ -140,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA21C63A2593CD6E00F11DF6 /* Build configuration list for PBXNativeTarget "RealEstateListings" */;
 			buildPhases = (
+				BFC970C03C4920A7D8266D28 /* [CP] Check Pods Manifest.lock */,
 				BA21C6112593CD6900F11DF6 /* Sources */,
 				BA21C6122593CD6900F11DF6 /* Frameworks */,
 				BA21C6132593CD6900F11DF6 /* Resources */,
+				E094542A52A32A57A7440F80 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA21C63D2593CD6E00F11DF6 /* Build configuration list for PBXNativeTarget "RealEstateListingsTests" */;
 			buildPhases = (
+				9ABD0D85B49DBFCC40CE01BF /* [CP] Check Pods Manifest.lock */,
 				BA21C6222593CD6E00F11DF6 /* Sources */,
 				BA21C6232593CD6E00F11DF6 /* Frameworks */,
 				BA21C6242593CD6E00F11DF6 /* Resources */,
@@ -175,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA21C6402593CD6E00F11DF6 /* Build configuration list for PBXNativeTarget "RealEstateListingsUITests" */;
 			buildPhases = (
+				EE574E62137F71F1B7452DEE /* [CP] Check Pods Manifest.lock */,
 				BA21C62D2593CD6E00F11DF6 /* Sources */,
 				BA21C62E2593CD6E00F11DF6 /* Frameworks */,
 				BA21C62F2593CD6E00F11DF6 /* Resources */,
+				90B47551816B28A98CF3F766 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,14 +308,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		90B47551816B28A98CF3F766 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealEstateListings-RealEstateListingsUITests/Pods-RealEstateListings-RealEstateListingsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealEstateListings-RealEstateListingsUITests/Pods-RealEstateListings-RealEstateListingsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RealEstateListings-RealEstateListingsUITests/Pods-RealEstateListings-RealEstateListingsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ABD0D85B49DBFCC40CE01BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RealEstateListingsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFC970C03C4920A7D8266D28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RealEstateListings-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E094542A52A32A57A7440F80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealEstateListings/Pods-RealEstateListings-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealEstateListings/Pods-RealEstateListings-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RealEstateListings/Pods-RealEstateListings-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE574E62137F71F1B7452DEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RealEstateListings-RealEstateListingsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BA21C6112593CD6900F11DF6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BA21C61B2593CD6900F11DF6 /* ContentView.swift in Sources */,
+				BAF42DD6259442C00011F9CE /* DetailView.swift in Sources */,
 				BA21C6472593CE6300F11DF6 /* CardView.swift in Sources */,
 				BA21C6192593CD6900F11DF6 /* RealEstateListingsApp.swift in Sources */,
+				BA2452572594741300FBCD7E /* RealmSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +574,7 @@
 		};
 		BA21C63B2593CD6E00F11DF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09BBD39234A0ADBEC0733FAD /* Pods-RealEstateListings.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -440,6 +597,7 @@
 		};
 		BA21C63C2593CD6E00F11DF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D07A13B02775910E35A2C65D /* Pods-RealEstateListings.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +620,7 @@
 		};
 		BA21C63E2593CD6E00F11DF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 865C159308919472A6775BC2 /* Pods-RealEstateListingsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +643,7 @@
 		};
 		BA21C63F2593CD6E00F11DF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC5941912AB253F6B3B39046 /* Pods-RealEstateListingsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +666,7 @@
 		};
 		BA21C6412593CD6E00F11DF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3920B98A04F26B3302469B22 /* Pods-RealEstateListings-RealEstateListingsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +687,7 @@
 		};
 		BA21C6422593CD6E00F11DF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F1CEC2CF97D78ACE0F9C699 /* Pods-RealEstateListings-RealEstateListingsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
