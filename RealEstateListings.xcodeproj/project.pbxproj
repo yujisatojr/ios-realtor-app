@@ -14,6 +14,7 @@
 		BA21C62B2593CD6E00F11DF6 /* RealEstateListingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA21C62A2593CD6E00F11DF6 /* RealEstateListingsTests.swift */; };
 		BA21C6362593CD6E00F11DF6 /* RealEstateListingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA21C6352593CD6E00F11DF6 /* RealEstateListingsUITests.swift */; };
 		BA21C6472593CE6300F11DF6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA21C6462593CE6300F11DF6 /* CardView.swift */; };
+		BA7DB2D927D4B477005EA826 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7DB2D827D4B477005EA826 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BA21C6352593CD6E00F11DF6 /* RealEstateListingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealEstateListingsUITests.swift; sourceTree = "<group>"; };
 		BA21C6372593CD6E00F11DF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA21C6462593CE6300F11DF6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		BA7DB2D827D4B477005EA826 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				BA21C6212593CD6E00F11DF6 /* Info.plist */,
 				BA21C61E2593CD6E00F11DF6 /* Preview Content */,
 				BA21C6462593CE6300F11DF6 /* CardView.swift */,
+				BA7DB2D827D4B477005EA826 /* DetailView.swift */,
 			);
 			path = RealEstateListings;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA21C61B2593CD6900F11DF6 /* ContentView.swift in Sources */,
+				BA7DB2D927D4B477005EA826 /* DetailView.swift in Sources */,
 				BA21C6472593CE6300F11DF6 /* CardView.swift in Sources */,
 				BA21C6192593CD6900F11DF6 /* RealEstateListingsApp.swift in Sources */,
 			);
